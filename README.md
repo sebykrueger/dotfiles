@@ -1,11 +1,5 @@
 # Seb's dotfiles
 
-### Install Homebrew formulae
-
-When setting up a new Mac, you will need to install some common [Homebrew](https://brew.sh/) formulae.
-
-I use the [workstation setup](https://github.com/Flyttness/workstation-setup) from the Flyttness team.
-
 ## Installation
 
 **Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
@@ -75,6 +69,18 @@ When setting up a new Mac, you may want to set some sensible macOS defaults:
 
 ```bash
 ./.macos
+```
+
+### Install Homebrew formulae
+
+When setting up a new Mac, you will need to install some common [Homebrew](https://brew.sh/) formulae.
+
+I use the [workstation setup](https://github.com/Flyttness/workstation-setup) from the Flyttness team to bootstrap my machine.
+
+After installing the above workstation setup, you can add additional formulae to install:
+
+```bash
+./brew.sh
 ```
 
 ## Feedback

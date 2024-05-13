@@ -10,6 +10,11 @@ brew upgrade
 
 # Add apps to install
 brew install --cask transmission
+brew install --cask grammarly-desktop
+brew install --cask steam
+brew install --cask vlc
+brew install --cask canva
+brew install --cask github
 
 # Remove outdated versions from the cellar.
 brew cleanup

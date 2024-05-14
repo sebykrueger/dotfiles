@@ -15,6 +15,8 @@ brew install --cask steam
 brew install --cask vlc
 brew install --cask canva
 brew install --cask github
+brew install --cask docker
+brew install --cask dbvisualizer
 
 # Remove outdated versions from the cellar.
 brew cleanup
